@@ -48,7 +48,7 @@ describe("#Testing loading for cleanex ", function() {
     });
 
     it("it should return true", function() {
-        var testvar = cleanex.confirm_type('_null',undefined); //TODO : Failing
+        var testvar = cleanex.confirm_type('_null',null); //TODO : Failing
       console.log(testvar);
       assert.equal(testvar, true, 'error if not null variable');
     });
