@@ -46,7 +46,7 @@ describe('confirm primitive data types', function() {
     describe('#TestForNull',function(){
       it('should assert variable as null and return true', function(){
           //if notheing is passed is null
-          var nullvar = confirm._null(null);
+          var nullvar = confirm._null();
           console.log(nullvar);
           assert.equal(nullvar, true, 'error if not null');
       });
