@@ -1,11 +1,9 @@
-
-
 # Descritpion type-confirm
 
 The module type-confirm is a set of well tested functions to test truthiness of
- Javascript primitive data types and non-primitive data types and other data types.
+ JavaScript primitive data types and non-primitive data types and other data types.
 
- Originally created for studies puropses, It is well tested and follows TDD princilpes
+ Originally created for studies purposes, It is well tested and follows TDD principles
  using the following stack:
 
 ### Tech stack
@@ -15,6 +13,7 @@ The module type-confirm is a set of well tested functions to test truthiness of
   ES6
   NPM
   Atom
+  Git
 ```
 ### Usage
 The module can be installed by :
@@ -45,6 +44,4 @@ ecc...
 
 ```
 
-
-
-Clone and run npm test
+Clone from git  and run npm test
