@@ -54,7 +54,7 @@ describe("#Testing loading for cleanex ", function() {
     });
 
     it("it should return true", function() {
-        var testvar = cleanex.ct('_version','1.1.1'); //TODO : Failing
+        var testvar = cleanex.ct('_version','1.2.1'); //TODO : Failing
       console.log(testvar);
       assert.equal(testvar, true, 'error if not null test version');
     });
