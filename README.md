@@ -52,7 +52,7 @@ var string_var = ct.ct('_string',"some-random-string");
 
 var num_var = ct.ct('_num',1202);
 
-var undefined_var = ct.confirm_type('_undefined',undefined);
+var undefined_var = ct.ct('_undefined',undefined);
 
 
 
