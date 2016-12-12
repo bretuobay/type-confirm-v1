@@ -25,19 +25,36 @@ npm install type-confirm
 The following data types can be tested for truthiness:
 
 ```
-var tc = require('../lib/index');
+var ct = require('type-confirm');
 
-var bool_var = tc.confirm_type('_bool',true);
+var bool_var = ct.confirm_type('_bool',true);
 
-var int_var = tc.confirm_type('_int',10);
+var int_var = ct.confirm_type('_int',10);
 
-var float_var = tc.confirm_type('_float',10.99);
+var float_var = ct.confirm_type('_float',10.99);
 
-var string_var = tc.confirm_type('_string',"some-random-string");
+var string_var = ct.confirm_type('_string',"some-random-string");
 
-var num_var = tc.confirm_type('_num',1202);
+var num_var = ct.confirm_type('_num',1202);
 
-var undefined_var = tc.confirm_type('_undefined',undefined);
+var undefined_var = ct.confirm_type('_undefined',undefined);
+
+
+from version 1.2.1, use short hand
+
+var bool_var = ct.ct('_bool',true);
+
+var int_var = ct.ct('_int',10);
+
+var float_var = ct.ct('_float',10.99);
+
+var string_var = ct.ct('_string',"some-random-string");
+
+var num_var = ct.ct('_num',1202);
+
+var undefined_var = ct.confirm_type('_undefined',undefined);
+
+
 
 ecc...
 
