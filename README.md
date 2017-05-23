@@ -54,6 +54,21 @@ var num_var = ct.ct('_num',1202);
 
 var undefined_var = ct.ct('_undefined',undefined);
 
+from version 1.3.0
+
+use directly truthy functions
+
+var ct = require('type-confirm');
+
+ct._int(4)
+ct._string('some-random-string')
+ct._num(2.302);
+
+use in if blocks like
+
+if(ct._int(someIntValue)){
+
+}
 
 
 ecc...

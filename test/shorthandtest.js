@@ -9,6 +9,7 @@ describe("#Testing loading for cleanex ", function() {
   describe("should load utility module and call some utility functions ", function() {
     it("it should return true", function() {
       //var testvar = cleanex.ct(confirm._bool,'true');
+      // console.log(cleanex)
         var testvar = cleanex.ct('_bool',true);
       console.log(testvar);
       assert.equal(testvar, true, 'error if not boolean');
@@ -54,7 +55,7 @@ describe("#Testing loading for cleanex ", function() {
     });
 
     it("it should return true", function() {
-        var testvar = cleanex.ct('_version','1.2.1'); //TODO : Failing
+        var testvar = cleanex.ct('_version','1.3.0'); //TODO : Failing
       console.log(testvar);
       assert.equal(testvar, true, 'error if not null test version');
     });

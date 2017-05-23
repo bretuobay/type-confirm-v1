@@ -37,7 +37,7 @@ describe('confirm primitive data types', function() {
 
     describe('#Initial test for version',function(){
       it('should print infor about module', function(){
-        var version = confirm._version('1.2.1');
+        var version = confirm._version('1.3.0');
         console.log(version);
         assert.equal(version, true, 'is the current version');
       });
@@ -129,7 +129,7 @@ describe('confirm primitive data types', function() {
 }); // Module core
 
 
-console.log('--------------------Non primitive-------------------');
+//console.log('--------------------Non primitive-------------------');
 
 describe('Non primitive Datatypes',function(){
 
